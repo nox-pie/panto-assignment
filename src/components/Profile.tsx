@@ -4,7 +4,7 @@ import { auth, db } from '../firebase';
 import { useNavigate } from 'react-router-dom';
 import { Octokit } from '@octokit/rest';
 import { collection, doc, setDoc, getDocs, query, where } from 'firebase/firestore';
-import { LogOut, Github } from 'lucide-react';
+import { LogOut, Github } from 'lucide-react'; // Logo icons
 import type { Repository, User } from '../types';
 
 export default function Profile() {
